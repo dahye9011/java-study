@@ -1,0 +1,28 @@
+package java_1;
+
+public class Ch01 { // 클래스 영역 - 객체 지향 코드 구현 단위
+
+	// public class Ch01 : 1. 하나의 public 클래스로 시작
+	//					   2. 클래스는 파일 이름과 동일해야 함
+	//					   3. 그 내부에 main 메서드가 포함되어야 함
+	
+	public static void main(String[] args) { // 메서드 영역 - 절차 지향 구현 단위, main 메서드의 선언부
+		
+		// ### 메서드의 정의와 종류 ###
+		// 0. 메서드(기능)			: 특정 기능 수행, C언어의 함수 개념
+		// 1. 메인(main) 메서드	: 최초 실행되는 함수
+		// 2. 라이브러리 메서드		: 개발편의를 위해서 미리 만들어져 제공하는 함수
+		// 3. 사용자 정의 메서드		: 개발자가 정의한(만든) 메서드
+		
+		
+		System.out.println("Hello JAVA!");
+		
+		System.out.printf("이름: %s\n", "다혜");
+		System.out.printf("나이: %d\n", 16);
+		System.out.printf("성별: %c\n", 'W');
+		System.out.printf("키: %f\n", 164.7);
+		System.out.printf("주소: \"%s\"", "경북 경산시");
+
+	}
+
+}
