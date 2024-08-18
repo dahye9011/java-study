@@ -40,7 +40,7 @@ class C02Simple {
 	}
 }
 
-public class C01Sttiac {
+public class C01Static {
 	public static void main(String[] args) {
 		// static이 붙은 변수(정적 멤버)는 클래스 자체에 속함
 		// ===> 클래스명.변수 이름 으로 변수를 호출할 수 있음 !!!
@@ -69,6 +69,6 @@ public class C01Sttiac {
 		obj2.showNum(); // 255, 0
 		
 		C02Simple.n2 = 22;
-//		C02Simple.func1();
+		C02Simple.func1(); // 20
 	}
 }
